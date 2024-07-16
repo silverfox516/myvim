@@ -13,8 +13,8 @@ nmap <F9> :TagbarToggle<CR>
 
 " gtags
 map <C-g> :GtagsCursor<CR>
-map <C-g><C-r> :GtagsReferenced<CR>
-map <C-g><C-g> :GtagsGrep<CR>
+map <C-g><C-r> :Gtags -r<CR>
+map <C-g><C-g> :Gtags -ge<CR>
 map <C-n> :cn<CR>
 map <C-p> :cp<CR>
 
